@@ -1,0 +1,57 @@
+Deploy.java
+    echo "Welcome to Zelle"                    = Isaac
+    echo "Zelle your payment gateway"          = Ben        
+    echo "Zelle is the gateway of the future"  = UnitedCore   
+    echo "Zelle is offering 30% discount"      = Emma
+    echo "Good deals for returning clients"     = Theo
+
+Repository:
+    https://github.com/UnitedCore-Class2023/Deploy.java.git
+
+creat a directory
+git init 
+git status
+git add . 
+git commit -m "comments"
+git remote add origin https://github.com/UnitedCore-Class2023/Deploy.java.git
+git push -u origin master
+
+
+Git Branch :
+ git branch [name]
+
+ git branch --list
+
+  Master
+  stage branches
+  development
+  main
+
+
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+  ssh-keygen -t ed25519 -C "unitedcoresystems@gmail.com"
+
+    ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIcxxmAe/NYZ29/r+turtCppTdkdDzo9M4kqkeljXB1r unitedcoresystems@gmail.com
+
+
+  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    git token
+
+  ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOV16gpdi2UhFrrDPSKnkV8+/eO6l8cDmp65S4BpD2sG unitedcoresystems@gmail.com
+   tempserver
+
+   UnitedCore-Class2023
+
+  Git fetch                           <-------------------
+  git merge    
+  git pull <------------------------------------------------------
+   
+  git init          = to initialised a git empty repository
+  git status        = to track files location
+  git log           
+  git add           = move files to staging area from working area
+  git commit -m     = move files to the local repository FROM STAGING AREA
+                      good commit message for tracking changes/authors 
+
+git commit -m "users list created"
+git push RemoteRepo master 
